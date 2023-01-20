@@ -1,0 +1,17 @@
+{
+  "name": "rezapp-components",
+  "version": "0.0.1",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.10.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.55.1"
+  }
+}
