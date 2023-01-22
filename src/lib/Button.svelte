@@ -1,3 +1,3 @@
 <button>
-    <slot></slot>
+    <slot />
 </button>

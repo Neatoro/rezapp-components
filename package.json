@@ -1,21 +1,24 @@
 {
-  "name": "rezapp-components",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "histoire dev",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "@histoire/plugin-svelte": "^0.12.4",
-    "@sveltejs/vite-plugin-svelte": "^2.0.0",
-    "@tsconfig/svelte": "^3.0.0",
-    "histoire": "^0.12.4",
-    "svelte": "^3.54.0",
-    "svelte-check": "^2.10.0",
-    "tslib": "^2.4.1",
-    "typescript": "^4.9.3",
-    "vite": "^4.0.0"
-  }
+    "name": "rezapp-components",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "prettify": "prettier --write .",
+        "dev": "histoire dev",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@histoire/plugin-svelte": "^0.12.4",
+        "@sveltejs/vite-plugin-svelte": "^2.0.0",
+        "@tsconfig/svelte": "^3.0.0",
+        "histoire": "^0.12.4",
+        "prettier": "^2.8.3",
+        "prettier-plugin-svelte": "^2.9.0",
+        "svelte": "^3.54.0",
+        "svelte-check": "^2.10.0",
+        "tslib": "^2.4.1",
+        "typescript": "^4.9.3",
+        "vite": "^4.0.0"
+    }
 }

@@ -1,7 +1,7 @@
 <script lang="ts">
-import Button from '../lib/Button.svelte';
+    import Button from '../lib/Button.svelte';
 
-export let Hst;
+    export let Hst;
 </script>
 
 <Hst.Story>
